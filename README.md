@@ -64,10 +64,25 @@ The following configurations and tests were verified:
 - DHCP address assignment
 - Inter-VLAN connectivity
 - Network interface status
-
 ## Evidence
 
-Screenshots of the configuration and verification are available in the `screenshots` folder.
+### VLAN Configuration
+
+![VLAN Configuration](./screenshots/vlan.png)
+
+### 802.1Q Trunk Configuration
+
+![Trunk Configuration](./screenshots/trunk.png)
+
+### DHCP Configuration
+
+![DHCP Configuration](./screenshots/dhcp.png)
+
+### Interface Status
+
+![Interface Status](./screenshots/brief.png)
+
+
 
 ## Packet Tracer File
 
