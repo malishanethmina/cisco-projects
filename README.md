@@ -1,21 +1,36 @@
-# cisco-projects
-Cisco Networking and Cybersecurity Projects using Cisco Packet Tracer
-# Cisco Networking & Cybersecurity Projects
+# Project 1 — Multi-Department Office Network
 
-This repository contains practical networking and cybersecurity projects created using Cisco Packet Tracer.
+## Overview
 
-These projects demonstrate my hands-on learning in Cisco networking, network configuration, troubleshooting, and cybersecurity fundamentals.
+This project demonstrates the design and configuration of a multi-department office network using Cisco Packet Tracer.
 
-## Projects
+The network separates different departments using VLANs and provides communication between VLANs using Router-on-a-Stick inter-VLAN routing.
 
-### Project 1 — Multi-Department Office Network
+## Network Topology
 
-A small office network designed with separate departments using VLANs and Router-on-a-Stick inter-VLAN routing.
+![Network Topology](./topology.png)
 
-**Topics covered:**
+## Network Departments
+
+| VLAN | Department | Network | Default Gateway |
+|---|---|---|---|
+| 10 | ADMIN | 192.168.10.0/24 | 192.168.10.1 |
+| 20 | IT | 192.168.20.0/24 | 192.168.20.1 |
+| 30 | SALES | 192.168.30.0/24 | 192.168.30.1 |
+| 40 | SERVER | 192.168.40.0/24 | 192.168.40.1 |
+
+## Devices
+
+- 1 Cisco Router
+- 1 Cisco Switch
+- 6 PCs
+- 1 Server
+
+## Technologies & Concepts
+
 - IPv4 Addressing
 - Subnet Masks
-- VLANs
+- VLAN Configuration
 - 802.1Q Trunking
 - Router-on-a-Stick
 - Inter-VLAN Routing
@@ -23,40 +38,37 @@ A small office network designed with separate departments using VLANs and Router
 - ARP
 - MAC Address Learning
 - ICMP / Ping
-- Network Troubleshooting
+- Basic Network Troubleshooting
 
-**Cisco Course:** Networking Basics
+## DHCP
 
-[View Project 1](./Project-1-Multi-Department-Office-Network/)
+DHCP was configured on the router for the three client departments.
 
----
+| VLAN | DHCP Range |
+|---|---|
+| ADMIN | 192.168.10.21 – 192.168.10.254 |
+| IT | 192.168.20.21 – 192.168.20.254 |
+| SALES | 192.168.30.21 – 192.168.30.254 |
 
-### Project 2 — Secure Business Network
+The server uses a static IP address:
 
-A business network focused on applying basic network security and cybersecurity concepts using Cisco Packet Tracer.
+`192.168.40.10`
 
-**Cisco Course:** Introduction to Cybersecurity
+## Verification
 
-*Coming soon*
+The following configurations and tests were verified:
 
----
+- VLAN configuration
+- 802.1Q trunking
+- Router subinterfaces
+- DHCP address assignment
+- Inter-VLAN connectivity
+- Network interface status
 
-### Project 3 — Enterprise Network Configuration
+## Evidence
 
-An enterprise-style network demonstrating Cisco IOS configuration, device management, IPv4/IPv6, routing, and troubleshooting.
+Screenshots of the configuration and verification are available in the `screenshots` folder.
 
-**Cisco Course:** Networking Devices and Initial Configuration
+## Packet Tracer File
 
-*Coming soon*
-
----
-
-## Tools
-
-- Cisco Packet Tracer
-- Cisco IOS CLI
-- GitHub
-
-## Goal
-
-To build practical networking and cybersecurity skills for an IT career, particularly in network administration and system integration.
+[Download the Packet Tracer project](./multi-department-office-network.pkt)
