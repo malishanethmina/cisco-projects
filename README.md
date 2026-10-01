@@ -1,19 +1,15 @@
-# Cisco Networking & Cybersecurity Projects
+# Cisco Networking Projects
 
-This repository contains practical networking and cybersecurity projects created using Cisco Packet Tracer.
-
-These projects demonstrate my hands-on learning in Cisco networking, network configuration, troubleshooting, and cybersecurity fundamentals.
+A collection of practical Cisco Packet Tracer projects created to demonstrate networking, cybersecurity, and Cisco device configuration skills.
 
 ## Projects
 
 ### Project 1 — Multi-Department Office Network
 
-A small office network designed with separate departments using VLANs and Router-on-a-Stick inter-VLAN routing.
+A multi-department office network designed using VLAN segmentation and inter-VLAN routing.
 
-**Topics covered:**
+**Topics Covered:**
 
-* IPv4 Addressing
-* Subnet Masks
 * VLANs
 * 802.1Q Trunking
 * Router-on-a-Stick
@@ -26,31 +22,65 @@ A small office network designed with separate departments using VLANs and Router
 
 **Cisco Course:** Networking Basics
 
-[View Project 1](./Project-1-Multi-Department-Office-Network/)
+[View Project 1](./Project-1-Multi-Department-Office-Network)
 
 ---
 
-### Project 2 — Secure Business Network
+### Project 2 — Secure Small Business Network
 
-A business network focused on applying basic network security and cybersecurity concepts using Cisco Packet Tracer.
+A secure small-business network demonstrating network segmentation and basic Cisco security configurations.
+
+**Topics Covered:**
+
+* VLANs
+* Trunking
+* DHCP
+* Inter-VLAN Routing
+* SSH
+* Port Security
+* Secure Device Access
+* Network Security
+* Connectivity Testing
 
 **Cisco Course:** Introduction to Cybersecurity
 
-*Coming soon*
+[View Project 2](./Project-2-Secure-Small-Business-Network)
 
 ---
 
-### Project 3 — Enterprise Network Configuration
+### Project 3 — Enterprise Secure Network
 
-An enterprise-style network demonstrating Cisco IOS configuration, device management, IPv4/IPv6, routing, and troubleshooting.
+An enterprise-style network combining networking, cybersecurity, and Cisco device configuration concepts from three Cisco courses.
 
-**Cisco Course:** Networking Devices and Initial Configuration
+**Topics Covered:**
 
-*Coming soon*
+* IPv4 Addressing
+* Subnetting
+* VLAN Segmentation
+* 802.1Q Trunking
+* Router-on-a-Stick
+* Inter-VLAN Routing
+* DHCP
+* DNS
+* HTTP / HTTPS
+* SSH Version 2
+* Port Security
+* Secure Device Access
+* Cisco IOS Configuration
+* Connectivity Testing
+* Network Troubleshooting
+
+**Cisco Courses Covered:**
+
+* Networking Basics
+* Introduction to Cybersecurity
+* Networking Devices and Initial Configuration
+
+[View Project 3](./Project-3-Enterprise-Secure-Network)
 
 ---
 
-## Tools
+## Tools Used
 
 * Cisco Packet Tracer
 * Cisco IOS CLI
@@ -58,4 +88,4 @@ An enterprise-style network demonstrating Cisco IOS configuration, device manage
 
 ## Goal
 
-To build practical networking and cybersecurity skills for an IT career, particularly in network administration and system integration.
+These projects are part of my practical networking portfolio, demonstrating hands-on experience with Cisco networking, network security, device configuration, and troubleshooting.
